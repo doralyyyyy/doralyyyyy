@@ -172,13 +172,15 @@
 ## 📈 GitHub Signal
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=doralyyyyy&show_icons=true&theme=transparent&hide_border=true" alt="GitHub stats" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=doralyyyyy&layout=compact&theme=transparent&hide_border=true&langs_count=8" alt="Top languages" width="49%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=doralyyyyy&theme=github#gh-light-mode-only" alt="Profile details" width="100%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=doralyyyyy&theme=github_dark#gh-dark-mode-only" alt="Profile details" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=doralyyyyy&theme=default&hide_border=true#gh-light-mode-only" alt="GitHub streak" />
-  <img src="https://streak-stats.demolab.com/?user=doralyyyyy&theme=dark&hide_border=true#gh-dark-mode-only" alt="GitHub streak" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=doralyyyyy&theme=github#gh-light-mode-only" alt="Repos per language" width="49%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=doralyyyyy&theme=github_dark#gh-dark-mode-only" alt="Repos per language" width="49%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=doralyyyyy&theme=github&utcOffset=8#gh-light-mode-only" alt="Productive time" width="49%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=doralyyyyy&theme=github_dark&utcOffset=8#gh-dark-mode-only" alt="Productive time" width="49%" />
 </p>
 
 <p align="center">
