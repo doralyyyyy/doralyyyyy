@@ -39,7 +39,7 @@
   </tr>
 </table>
 
-### Backend / SQL
+### Backend
 <table align="center">
   <tr>
     <td align="center" width="96">
