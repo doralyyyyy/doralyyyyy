@@ -1,18 +1,18 @@
-<h1 align="center">✦ doralyyyyy</h1>
+<h1 align="center">✨ doralyyyyy</h1>
 
 <p align="center">
   Developer building polished interfaces, practical systems, and AI-assisted tools.
 </p>
 
 <p align="center">
-  ✉ <a href="mailto:2400011765@stu.pku.edu.cn">2400011765@stu.pku.edu.cn</a>
+  📧 <a href="mailto:2400011765@stu.pku.edu.cn">2400011765@stu.pku.edu.cn</a>
 </p>
 
 ---
 
-## ⚙ Stack
+## 🛠️ Tech Stack
 
-### Frontend
+### 🎨 Frontend
 <table align="center">
   <tr>
     <td align="center" width="96">
@@ -39,17 +39,20 @@
   </tr>
 </table>
 
-### Backend
+### 🧠 Backend
 <table align="center">
   <tr>
     <td align="center" width="96">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="40" alt="Python" /><br />Python
     </td>
     <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" width="40" alt="C" /><br />C
+      <img src="assets/c-programming-language.png" width="40" height="40" style="object-fit: contain;" alt="C" /><br />C
     </td>
     <td align="center" width="96">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" width="40" alt="C++" /><br />C++
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" width="40" alt="C#" /><br />C#
     </td>
     <td align="center" width="96">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" width="40" alt="Rust" /><br />Rust
@@ -69,7 +72,7 @@
   </tr>
 </table>
 
-### Creative Tools
+### 🎬 Creative Tools
 <table align="center">
   <tr>
     <td align="center" width="96">
@@ -90,7 +93,7 @@
   </tr>
 </table>
 
-### IDE
+### 💻 IDE
 <table align="center">
   <tr>
     <td align="center" width="96">
@@ -98,6 +101,9 @@
     </td>
     <td align="center" width="96">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg" width="40" alt="Visual Studio" /><br />Visual Studio
+    </td>
+    <td align="center" width="96">
+      <img src="assets/qtcreator.png" width="40" alt="Qt Creator" /><br />Qt Creator
     </td>
     <td align="center" width="96">
       <img src="assets/cursor.svg" width="40" alt="Cursor" /><br />Cursor
@@ -117,7 +123,25 @@
   </tr>
 </table>
 
-### OS
+### 🧰 Dev Tools
+<table align="center">
+  <tr>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="40" alt="Docker" /><br />Docker
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" width="40" alt="Bash" /><br />Bash
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" width="40" alt="PowerShell" /><br />PowerShell
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cmake/cmake-original.svg" width="40" alt="CMake" /><br />CMake
+    </td>
+  </tr>
+</table>
+
+### 🖥️ OS
 <table align="center">
   <tr>
     <td align="center" width="96">
@@ -129,7 +153,7 @@
   </tr>
 </table>
 
-### Other
+### ✨ Other
 <table align="center">
   <tr>
     <td align="center" width="96">
@@ -141,10 +165,13 @@
     <td align="center" width="96">
       <img src="assets/lean.svg" width="40" alt="Lean" /><br />Lean
     </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matlab/matlab-original.svg" width="40" alt="MATLAB" /><br />MATLAB
+    </td>
   </tr>
 </table>
 
-### Languages
+### 🌍 Languages
 <table align="center">
   <tr>
     <td align="center" width="96">
@@ -159,7 +186,7 @@
   </tr>
 </table>
 
-## ✦ Selected Work
+## 🚀 Selected Work
 
 | Project | Focus | Stack |
 | --- | --- | --- |
@@ -169,21 +196,33 @@
 | [QChat](https://github.com/doralyyyyy/QChat) | Qt-based chat app with client/server split, voice features, and network setup support. | C++, Qt, Python |
 | [OrganicChem-AI](https://github.com/doralyyyyy/OrganicChem-AI) | AI-assisted organic chemistry app with PKU network and local deployment support. | JavaScript, Node.js, Vite, Tailwind |
 
-## 📈 GitHub Signal
+## 📊 GitHub Signal
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=doralyyyyy&theme=github#gh-light-mode-only" alt="Profile details" width="100%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=doralyyyyy&theme=github_dark#gh-dark-mode-only" alt="Profile details" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=doralyyyyy&theme=github_dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=doralyyyyy&theme=github" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=doralyyyyy&theme=github" alt="Profile details" width="100%" />
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=doralyyyyy&theme=github#gh-light-mode-only" alt="Repos per language" width="49%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=doralyyyyy&theme=github_dark#gh-dark-mode-only" alt="Repos per language" width="49%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=doralyyyyy&theme=github&utcOffset=8#gh-light-mode-only" alt="Productive time" width="49%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=doralyyyyy&theme=github_dark&utcOffset=8#gh-dark-mode-only" alt="Productive time" width="49%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=doralyyyyy&theme=github_dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=doralyyyyy&theme=github" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=doralyyyyy&theme=github" alt="Repos per language" width="49%" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=doralyyyyy&theme=github_dark&utcOffset=8" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=doralyyyyy&theme=github&utcOffset=8" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=doralyyyyy&theme=github&utcOffset=8" alt="Productive time" width="49%" />
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=doralyyyyy&theme=github&hide_border=true#gh-light-mode-only" alt="Activity graph" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=doralyyyyy&bg_color=0d1117&color=c9d1d9&line=58a6ff&point=c9d1d9&area=true&hide_border=true#gh-dark-mode-only" alt="Activity graph" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=doralyyyyy&bg_color=0d1117&color=c9d1d9&line=58a6ff&point=c9d1d9&area=true&hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=doralyyyyy&theme=github&hide_border=true" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=doralyyyyy&theme=github&hide_border=true" alt="Activity graph" width="100%" />
+  </picture>
 </p>
