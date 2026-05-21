@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  📧 <a href="mailto:2400011765@stu.pku.edu.cn">2400011765@stu.pku.edu.cn</a>
+  📧 <a href="mailto:1017944978@qq.com">1017944978@qq.com</a>
 </p>
 
 ---
