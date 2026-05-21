@@ -1,16 +1,16 @@
-<h1 align="center">doralyyyyy</h1>
+<h1 align="center">✦ doralyyyyy</h1>
 
 <p align="center">
   Developer building polished interfaces, practical systems, and AI-assisted tools.
 </p>
 
 <p align="center">
-  <a href="mailto:2400011765@stu.pku.edu.cn">2400011765@stu.pku.edu.cn</a>
+  ✉ <a href="mailto:2400011765@stu.pku.edu.cn">2400011765@stu.pku.edu.cn</a>
 </p>
 
 ---
 
-## Stack
+## ⚙ Stack
 
 ### Frontend
 <table align="center">
@@ -76,13 +76,13 @@
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" width="40" alt="Photoshop" /><br />Photoshop
     </td>
     <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/premierepro/premierepro-original.svg" width="40" alt="Premiere Pro" /><br />Premiere Pro
+      <img src="assets/premierepro.svg" width="40" alt="Premiere Pro" /><br />Premiere Pro
+    </td>
+    <td align="center" width="96">
+      <img src="assets/aftereffects.svg" width="40" alt="After Effects" /><br />After Effects
     </td>
     <td align="center" width="96">
       <img src="assets/audition.svg" width="40" alt="Audition" /><br />Audition
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/aftereffects/aftereffects-original.svg" width="40" alt="After Effects" /><br />After Effects
     </td>
     <td align="center" width="96">
       <img src="assets/cubase.svg" width="40" alt="Cubase" /><br />Cubase
@@ -159,7 +159,7 @@
   </tr>
 </table>
 
-## Selected Work
+## ✦ Selected Work
 
 | Project | Focus | Stack |
 | --- | --- | --- |
@@ -169,7 +169,7 @@
 | [QChat](https://github.com/doralyyyyy/QChat) | Qt-based chat app with client/server split, voice features, and network setup support. | C++, Qt, Python |
 | [OrganicChem-AI](https://github.com/doralyyyyy/OrganicChem-AI) | AI-assisted organic chemistry app with PKU network and local deployment support. | JavaScript, Node.js, Vite, Tailwind |
 
-## GitHub Signal
+## 📈 GitHub Signal
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=doralyyyyy&show_icons=true&theme=transparent&hide_border=true" alt="GitHub stats" width="49%" />
