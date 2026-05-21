@@ -46,7 +46,7 @@
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="40" alt="Python" /><br />Python
     </td>
     <td align="center" width="96">
-      <img src="assets/c-programming-language.png" width="40" height="40" style="object-fit: contain;" alt="C" /><br />C
+      <img src="assets/c-programming-language.png" width="40" alt="C" /><br />C
     </td>
     <td align="center" width="96">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" width="40" alt="C++" /><br />C++
