@@ -190,11 +190,12 @@
 
 | Project | Focus | Stack |
 | --- | --- | --- |
+| [OrganicChem-AI](https://github.com/doralyyyyy/OrganicChem-AI) | AI-assisted organic chemistry app with PKU network and local deployment support. | JavaScript, Node.js, Vite, Tailwind |
+| [QChat](https://github.com/doralyyyyy/QChat) | Qt-based chat app with client/server split, voice features, and network setup support. | C++, Qt, Python |
 | [MolPropLab](https://github.com/doralyyyyy/MolPropLab) | SMILES-based molecular property prediction with batch inference, uncertainty estimates, and 3D visualization. | React, Vite, Tailwind, Node.js, Python, RDKit |
 | [RustNetLens](https://github.com/doralyyyyy/RustNetLens) | Local HTTP proxy and traffic inspector with capture, persistence, filtering, export, rewrite, and replay. | Rust, Tauri 2, React, TypeScript |
-| [Desktop-Mascot](https://github.com/doralyyyyy/Desktop-Mascot) | Windows desktop mascot prototype with chat, screen capture, AI TTS, and Live2D/Tk fallback. | Python, Electron, Tk |
-| [QChat](https://github.com/doralyyyyy/QChat) | Qt-based chat app with client/server split, voice features, and network setup support. | C++, Qt, Python |
-| [OrganicChem-AI](https://github.com/doralyyyyy/OrganicChem-AI) | AI-assisted organic chemistry app with PKU network and local deployment support. | JavaScript, Node.js, Vite, Tailwind |
+| [GoGate](https://github.com/doralyyyyy/GoGate) | Lightweight Go API gateway with prefix routing, reverse proxying, JWT auth, rate limiting, health checks, and admin APIs. | Go, net/http, Docker, Makefile |
+| [CloudNest](https://github.com/doralyyyyy/CloudNest) | Spring Boot distributed net disk backend with auth, file management, uploads, recycle bin, sharing, quota management, and admin APIs. | Java 17, Spring Boot, MyBatis-Plus, MySQL, Redis, MinIO |
 
 ## 📊 GitHub Signal
 
