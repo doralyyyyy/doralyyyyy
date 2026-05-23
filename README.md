@@ -201,29 +201,29 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=doralyyyyy&theme=github_dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=doralyyyyy&theme=github" />
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=doralyyyyy&theme=github" alt="Profile details" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/0-profile-details.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile-summary-card-output/github/0-profile-details.svg" />
+    <img src="./profile-summary-card-output/github/0-profile-details.svg" alt="Profile details" width="100%" />
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=doralyyyyy&theme=github_dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=doralyyyyy&theme=github" />
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=doralyyyyy&theme=github" alt="Repos per language" width="49%" />
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/1-repos-per-language.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile-summary-card-output/github/1-repos-per-language.svg" />
+    <img src="./profile-summary-card-output/github/1-repos-per-language.svg" alt="Repos per language" width="49%" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=doralyyyyy&theme=github_dark&utcOffset=8" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=doralyyyyy&theme=github&utcOffset=8" />
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=doralyyyyy&theme=github&utcOffset=8" alt="Productive time" width="49%" />
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/4-productive-time.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile-summary-card-output/github/4-productive-time.svg" />
+    <img src="./profile-summary-card-output/github/4-productive-time.svg" alt="Productive time" width="49%" />
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=doralyyyyy&bg_color=0d1117&color=c9d1d9&line=58a6ff&point=c9d1d9&area=true&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=doralyyyyy&theme=github&hide_border=true" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=doralyyyyy&theme=github&hide_border=true" alt="Activity graph" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/activity-graph/activity-graph-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile-summary-card-output/activity-graph/activity-graph-light.svg" />
+    <img src="./profile-summary-card-output/activity-graph/activity-graph-light.svg" alt="Activity graph" width="100%" />
   </picture>
 </p>

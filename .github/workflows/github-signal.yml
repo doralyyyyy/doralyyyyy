@@ -1,0 +1,54 @@
+name: Update GitHub Signal
+
+# Regenerates the four GitHub Signal charts and commits SVGs to this repo.
+# Required secret: SUMMARY_GITHUB_TOKEN — classic PAT with read:user and repo (for private repos).
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-signal-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  update-signal:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate profile summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+        with:
+          USERNAME: doralyyyyy
+          BRANCH_NAME: main
+          UTC_OFFSET: "8"
+          AUTO_PUSH: false
+
+      - name: Fetch activity graph cards
+        run: |
+          mkdir -p profile-summary-card-output/activity-graph
+          curl -fsSL \
+            "https://github-readme-activity-graph.vercel.app/graph?username=doralyyyyy&bg_color=0d1117&color=c9d1d9&line=58a6ff&point=c9d1d9&area=true&hide_border=true" \
+            -o profile-summary-card-output/activity-graph/activity-graph-dark.svg
+          curl -fsSL \
+            "https://github-readme-activity-graph.vercel.app/graph?username=doralyyyyy&theme=github&hide_border=true" \
+            -o profile-summary-card-output/activity-graph/activity-graph-light.svg
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-summary-card-output/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update GitHub Signal cards"
+            git push
+          fi
