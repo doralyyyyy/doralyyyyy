@@ -20,6 +20,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate profile summary cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
@@ -42,13 +44,16 @@ jobs:
             -o profile-summary-card-output/activity-graph/activity-graph-light.svg
 
       - name: Commit and push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git add profile-summary-card-output/
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
             git commit -m "chore: update GitHub Signal cards"
-            git push
+            git push origin "HEAD:${GITHUB_REF_NAME}"
           fi
