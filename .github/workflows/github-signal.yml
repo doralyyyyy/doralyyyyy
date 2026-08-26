@@ -36,12 +36,26 @@ jobs:
       - name: Fetch activity graph cards
         run: |
           mkdir -p profile-summary-card-output/activity-graph
-          curl -fsSL \
+          fetch_graph() {
+            url="$1"
+            output="$2"
+            temporary="${output}.tmp"
+
+            if curl --retry 3 --retry-all-errors -fsSL "$url" -o "$temporary"; then
+              mv "$temporary" "$output"
+            else
+              echo "::warning::Activity graph service is unavailable; keeping the previous ${output}"
+              rm -f "$temporary"
+              git checkout -- "$output" 2>/dev/null || true
+            fi
+          }
+
+          fetch_graph \
             "https://github-readme-activity-graph.vercel.app/graph?username=doralyyyyy&bg_color=0d1117&color=c9d1d9&line=58a6ff&point=c9d1d9&area=true&hide_border=true" \
-            -o profile-summary-card-output/activity-graph/activity-graph-dark.svg
-          curl -fsSL \
+            profile-summary-card-output/activity-graph/activity-graph-dark.svg
+          fetch_graph \
             "https://github-readme-activity-graph.vercel.app/graph?username=doralyyyyy&theme=github&hide_border=true" \
-            -o profile-summary-card-output/activity-graph/activity-graph-light.svg
+            profile-summary-card-output/activity-graph/activity-graph-light.svg
 
       - name: Commit and push
         env:
